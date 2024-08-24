@@ -32,3 +32,12 @@ repos:
     rev: v2.3.0
     hooks:
       - id: codespell
+
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v3.29.0 # automatically updated by Commitizen
+    hooks:
+      - id: commitizen
+      - id: commitizen-branch
+        stages:
+          - post-commit
+          - push

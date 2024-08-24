@@ -1,6 +1,6 @@
 {
   "name": "Amazon S3 Backup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "slug": "amazon_s3_backup",
   "description": "Sync Backups to your Amazon S3 bucket",
   "url": "https://github.com/daveshow/ha-addons/tree/main/amazon_s3_backup",
