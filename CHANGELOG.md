@@ -1,3 +1,9 @@
+## 1.0.4 (2024-08-24)
+
+### Fix
+
+- update the changelog location
+
 ## 1.0.3 (2024-08-24)
 
 ### Fix
