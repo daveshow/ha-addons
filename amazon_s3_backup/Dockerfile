@@ -21,10 +21,10 @@ CMD [ "/run.sh" ]
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE
-ARG BUILD_DESCRIPTION
-ARG BUILD_NAME
-ARG BUILD_REF
-ARG BUILD_REPOSITORY
+ARG BUILD_DESCRIPTION="Amazon S3 Backup Add-on for Home Assistant"
+ARG BUILD_NAME="Amazon S3 Backup"
+ARG BUILD_REF=main
+ARG BUILD_REPOSITORY="daveshow/amazon_s3_backup"
 ARG BUILD_VERSION
 
 # Labels
@@ -40,7 +40,7 @@ LABEL \
     org.opencontainers.image.vendor="Home Assistant Add-ons" \
     org.opencontainers.image.authors="David Peters (https://github.com/daveshow)" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://github.com/daveshow" \
+    org.opencontainers.image.url="https://github.com/daveshow/ha-addons/tree/main/amazon_s3_backup" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
     org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
