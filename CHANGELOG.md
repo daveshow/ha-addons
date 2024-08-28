@@ -1,3 +1,9 @@
+## 1.0.5 (2024-08-27)
+
+### Fix
+
+- add the --delete argument to the sync if wanted
+
 ## 1.0.4 (2024-08-24)
 
 ### Fix
