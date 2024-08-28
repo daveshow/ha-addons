@@ -1,3 +1,9 @@
+## 1.0.6 (2024-08-27)
+
+### Fix
+
+- there was a bug in the delete command
+
 ## 1.0.5 (2024-08-27)
 
 ### Fix
