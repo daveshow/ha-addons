@@ -33,7 +33,7 @@ fi
 aws configure set region "$(bashio::config 'bucket_region' 'eu-central-1')"
 
 if bashio::var.true "${sync_delete}"; then
-    $delete_command="--delete"
+    delete_command="--delete"
 fi
 
 bashio::log.info "Starting Amazon S3 Backup..."
