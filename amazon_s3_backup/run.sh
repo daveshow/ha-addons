@@ -33,6 +33,7 @@ fi
 aws configure set region "$(bashio::config 'bucket_region' 'eu-central-1')"
 
 if bashio::var.true "${sync_delete}"; then
+    bashio::log.info "Delete flag enabled. Will delete files in the destination that are not present in the source."
     delete_command="--delete"
 fi
 
